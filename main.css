@@ -1,0 +1,89 @@
+ html {    
+         height: 100%;
+         width: 100%;
+         margin: 0;
+      }
+            
+            body
+            {
+                height: 100%;
+                width: 100%;
+                background: black;
+                color: white;
+                text-align: center;
+                margin: 0;
+                font-family: "Trebuchet MS",Sans;
+                font-size: 18px;
+                line-height: 130%;
+            }
+            
+            *
+            {
+                box-sizing: border-box;
+                outline: none;
+            }
+            
+            #container 
+            {
+                height: 85%;
+                float: left;
+                width: 100%;
+                overflow: auto;        /*border: 1px solid yellow;*/
+            }
+            
+            h2 
+            {
+                width: 98%;
+                margin: 12px auto 15px auto;
+                padding: 9px;
+                border: 2px solid white;
+               background: rgba(214, 153, 214,1);
+                color: purple ;
+                border-radius: 3px;
+                font-size: 160%;
+                font-weight: normal;
+                font-family: Damion;
+            }
+            
+            #string
+            {
+                width: 95%;
+                height: 250px;
+                padding: 10px;
+                margin: 6px 2.5% 5px 2.5%;
+                border: 2px solid rgba(100, 100, 100, 0.7);
+                font-size: 95%;
+                background: black;
+                color: white;
+                border-radius: 3px;
+                -webkit-transition: 0.6s;
+                font-family: "PT Sans", "Trebuchet MS", Sans;
+                resize: none;
+            }
+            
+            #result 
+            {
+                margin: 4px auto 8px auto;
+                width: 95%;
+                word-wrap: break-word;
+                padding: 15px 10px;
+                color: skyblue;
+                font: bold 96% "PT Sans";
+                display: none;
+                background: rgba(120, 120, 120, 0.3);
+                border-radius: 3px;
+                border: 1.5px solid rgba(150, 150, 150, 0.4);
+            }
+            
+            #myName 
+            {
+                padding: 4% 4%;
+                height: 15%;
+                width: 100%;
+                color: rgb(200 ,200, 200);        /*border: 1px solid pink;*/
+                background: black;
+                text-align: center;
+                font-size: 83%;
+                float: left;
+                font-family: "PT Sans";
+            }
